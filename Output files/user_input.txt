@@ -1,0 +1,8 @@
+Name = Shalini Singh,
+Age = 25,
+Address = 2A , 70,
+Father's Name = S.B.SINGH,
+Mother's Name = N.SINGH,
+Contact Number = 99765432,
+Alternative Contact Number = 333456721,
+e-mail = iangh@gmail.com

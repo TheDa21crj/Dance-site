@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@500&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url(//db.onlinewebfonts.com/c/6bccacc0af0302222227e090e8a03f3f?family=Scriptina);
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(253, 216, 214);
+}
+
+nav {
+    background-color: #342e2e;
+    padding: 13px;
+    height: 4%;
+}
+
+#p_t1 {
+    display: inline;
+    color: white;
+    font-family: 'Girassol', cursive;
+    font-size: 1.6rem;
+}
+
+#p_t2 {
+    display: inline;
+    color: rgb(9, 247, 9);
+    font-family: 'Girassol', cursive;
+    font-size: 1.6rem;
+}
+
+#btn_sign_in {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #8abf43;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px #6f9a37 inset;
+    height: 30px;
+    width: 70px;
+}
+
+#btn_sign_in:hover {
+    background-color: #6f9a37;
+}
+
+#side1{
+    background-color: rgb(255, 59, 92);
+    padding: 10px;
+    position: fixed;
+    top: 35%;
+    right: 0px;
+    width: 76.875px;
+    z-index: 2;
+}
+
+#side2{
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    top: 45%;
+    right: 0px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#join a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#t_bale {
+    background-color: white;
+    height: 92.2%;
+}
+
+#landing_img {
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    z-index: 1;
+}
+
+#make_the {
+    font-family: 'Scriptina';
+    font-size: 5rem;
+    color: #dddcdc;
+    position: absolute;
+    top: -18px;
+    left: 40%;
+    z-index: 2;
+}
+
+#perfect_dance_move {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    z-index: 2;
+}
+
+#hr_line {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    width: 140px;
+    border: solid;
+    border-color: black;
+    border-width: 0px 0px 1.5px 0px;
+    z-index: 2;
+}
+
+#h {
+    visibility: hidden;
+}
+
+#PURCHASE_div {
+    background-color: rgb(253, 216, 214);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    position: absolute;
+    top: 320px;
+    left: 44%;
+    padding: 15px 60px 15px 60px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    z-index: 2;
+}
+
+#PURCHASE_div:hover {
+    background-color: rgb(243, 175, 171);
+}
+
+#bg_white {
+    background-color: white;
+    height: 2000px;
+    width: auto;
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    z-index: 1;
+}
+
+#scroll_div1 {
+    margin: 50px;
+    display: inline;
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    z-index: 2;
+}
+
+#scroll_div2 {
+    margin: 50px;
+    display: inline;
+    position: absolute;
+    top: 400px;
+    right: 120px;
+    z-index: 2;
+}
+
+#scroll_div3 {
+    margin: 50px;
+    display: inline;
+    position: absolute;
+    top: 750px;
+    left: 120px;
+    z-index: 2;
+}
+
+#scroll_div4 {
+    margin: 50px;
+    display: inline;
+    position: absolute;
+    top: 750px;
+    right: 120px;
+    z-index: 2;
+}
+
+#scroll_div5 {
+    margin: 50px;
+    display: inline;
+    position: absolute;
+    top: 1150px;
+    left: 120px;
+    z-index: 2;
+}
+
+#scroll_div6 {
+    margin: 50px;
+    display: inline;
+    position: absolute;
+    top: 1150px;
+    right: 120px;
+    z-index: 2;
+}
+
+.behind_main_img {
+    width: 400px;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.behind_main_img:hover{
+    box-shadow: 20px -20px 1px rgb(253, 216, 214);
+}
+
+.behind_img_name {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Scriptina';
+    font-size: 2rem;
+    color: #afaeae;
+    background-color: white;
+    cursor: pointer;
+}
+
+.behind_img .behind_img_name {
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.behind_img .behind_img_name:hover {
+    color: black;
+}
+
+#beauty_set{
+    font-family: 'Scriptina';
+    font-size: 5rem;
+    color: #dddcdc;
+    position: absolute;
+    top: 850px;
+    left: 35%;
+    z-index: 2;
+}
+
+#enlighten{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: black;
+    position: absolute;
+    top: 1050px;
+    left: 22%;
+}
+
+#right_side_img{
+    position: absolute;
+    top: 1500px;
+    left: 0px;
+    width: 360px;
+    z-index: 2;
+    animation: rsi ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rsi {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#marquee_move{
+    position: absolute;
+    top: 1800px;
+    z-index: 2;
+}
+
+#f_sign{
+    background-color: rgb(253, 216, 214);
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    position: absolute;
+    top: 2650px;
+    left: 20%;
+    transition-property: all;
+    transition-duration: 2s;
+    z-index: 3;
+}
+
+#f_sign:hover{
+background-color: rgb(255, 255, 255);
+}
+
+#f_sign h1{
+    margin-left: 25%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#f_sign input{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(253, 216, 214);
+    outline: none;
+    padding: 10px; 
+    display: block;
+    border-radius: 5px;
+    margin: 15px auto;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+#f_sign input:hover{
+    border: solid;
+    border-color: rgb(255, 111, 135);
+    border-width: 0px 0px 2px 0px;
+
+}
+
+#f_sign p{
+    text-align: center;
+}
+
+#f_sign #btn{
+    display: block;
+    margin: 15px auto;
+    background-color: rgb(253, 216, 214);  
+    padding: 15px 60px 15px 60px;
+    border: none;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    z-index: 2;
+}
+
+#f_sign #btn:hover {
+    background-color: rgb(255, 111, 135);
+}

@@ -1,0 +1,21 @@
+{
+    "name": "dance",
+    "version": "1.0.0",
+    "description": "The dance website",
+    "main": "app.js",
+    "scripts": {
+        "nodemon": "nodemon app.js"
+    },
+    "author": "The Da",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "mongoose": "^5.12.7",
+        "pug": "^3.0.2",
+        "slugify": "^1.5.1"
+    },
+    "devDependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7"
+    }
+}
