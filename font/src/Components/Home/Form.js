@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./CSS/Home.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Form() {
+  useEffect(() => {
+    Aos.init({ duration: 3000, offset: 120 });
+  }, []);
   return (
     <div>
-      <div id="f_sign">
+      <div id="f_sign" data-aos="flip-down">
         <h1>FILL THE SIGN UP FORM</h1>
         <form action="/" method="POST">
           <input type="text" name="full_name" id="" placeholder="Full Name" />

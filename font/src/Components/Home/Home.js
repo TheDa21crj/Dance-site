@@ -17,7 +17,7 @@ import img6 from "../../Req img/landing-1-img-6-300x169.jpg";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overFlow">
       <Nav />
       <Header />
       <BgWhite />
